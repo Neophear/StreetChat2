@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdminAlreadyExist" xml:space="preserve">
+    <value>There already is an Admin</value>
+  </data>
+  <data name="AloneAdminRequest" xml:space="preserve">
+    <value>There have to be more than you in the chat to make you Admin</value>
+  </data>
+  <data name="AlreadyAdmin" xml:space="preserve">
+    <value>You are already Admin</value>
+  </data>
+  <data name="BottomText" xml:space="preserve">
+    <value>Made by Stiig "Neophear" Gade - Version {0}</value>
+  </data>
+  <data name="CopyAll" xml:space="preserve">
+    <value>Copy all</value>
+  </data>
+  <data name="CopyText" xml:space="preserve">
+    <value>Copy text</value>
+  </data>
+  <data name="DelAll" xml:space="preserve">
+    <value>Delete all text</value>
+  </data>
+  <data name="EmptyMessage" xml:space="preserve">
+    <value>You have to write a message</value>
+  </data>
+  <data name="FollowingIsAdmin" xml:space="preserve">
+    <value>-----Admins-----</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>-----Help-----
+Up/down to see previous messages
+CTRL+R to reply a private message
+You can right- and doubleclick on users
+You can rightclick in the chat
+/admins - Shows all Admins
+/afk - Set status to AFK
+/info - Some info about the chat
+/ip - Broadcast your own IP
+/ips - Show all users IP
+/versions - See all users versions
+/login password - Log in as Admin
+/request - Request to become Admin if there aren't any
+/status - Set/change your status
+/username username - Change username
+/w username - Write private to username
+/kick username - Kick username
+---------------</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>-----Info-----
+This chat was made in Afghanistan on ISAF 11 by Stiig Andreas Gade and have since then been modified
+This chat is made for LAN only
+Feel free to come with bugs/suggestions to stiiggade@gmail.com
+--------------</value>
+  </data>
+  <data name="IsNowAdmin" xml:space="preserve">
+    <value>{0} is now Admin</value>
+  </data>
+  <data name="Kick" xml:space="preserve">
+    <value>Kick</value>
+  </data>
+  <data name="LocalUsernameChange" xml:space="preserve">
+    <value>Your name is now {0}</value>
+  </data>
+  <data name="LoggedOff" xml:space="preserve">
+    <value>{0} logged off</value>
+  </data>
+  <data name="LoggedOn" xml:space="preserve">
+    <value>{0} logged on</value>
+  </data>
+  <data name="Love" xml:space="preserve">
+    <value>I love you Henriette Strand &lt;3</value>
+  </data>
+  <data name="MissingUsername" xml:space="preserve">
+    <value>You have to write a username</value>
+  </data>
+  <data name="NewVersion" xml:space="preserve">
+    <value>---New version---
+Your version is {0}
+{1} has version {2}
+----------------</value>
+  </data>
+  <data name="NoAdmin" xml:space="preserve">
+    <value>There are no Admins</value>
+  </data>
+  <data name="NotifyNewMessage" xml:space="preserve">
+    <value>Sound/statustext at new message</value>
+  </data>
+  <data name="NotPossible" xml:space="preserve">
+    <value>You can't do that</value>
+  </data>
+  <data name="StatusChange" xml:space="preserve">
+    <value>{0} is now {1}</value>
+  </data>
+  <data name="UsernameChange" xml:space="preserve">
+    <value>{0} changed name to {1}</value>
+  </data>
+  <data name="PortInUse" xml:space="preserve">
+    <value>Port {0} is already in use. Probably because you have a chat running already. Close it and try again.</value>
+  </data>
+  <data name="PrivateToLocalError" xml:space="preserve">
+    <value>You can't send private to yourself</value>
+  </data>
+  <data name="SeeIP" xml:space="preserve">
+    <value>See IP</value>
+  </data>
+  <data name="SeeVersion" xml:space="preserve">
+    <value>See version</value>
+  </data>
+  <data name="ShowIP" xml:space="preserve">
+    <value>{0}'s IP is {1}</value>
+  </data>
+  <data name="ShowVersion" xml:space="preserve">
+    <value>{0}'s version is {1}</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>StreetChat</value>
+  </data>
+  <data name="TitleNewMessage" xml:space="preserve">
+    <value>StreetChat - New message</value>
+  </data>
+  <data name="UsernameExist1" xml:space="preserve">
+    <value>Your name is already {0}</value>
+  </data>
+  <data name="UsernameExist2" xml:space="preserve">
+    <value>A user named {0} already exist</value>
+  </data>
+  <data name="UserNotOnline" xml:space="preserve">
+    <value>No user named {0} online</value>
+  </data>
+  <data name="WelcomeString" xml:space="preserve">
+    <value>-----Welcome-----
+Write /help or press F1 to get help to commands
+Enjoy :)
+-------------------</value>
+  </data>
+  <data name="WriteTo" xml:space="preserve">
+    <value>Send private message</value>
+  </data>
+  <data name="WrongCommand" xml:space="preserve">
+    <value>That command does not exist. Write /help or press F1 to see available commands</value>
+  </data>
+  <data name="WrongStatusFormat" xml:space="preserve">
+    <value>A status can't be more than 5 characters</value>
+  </data>
+  <data name="WrongUsernameFormat" xml:space="preserve">
+    <value>---Wrong format---
+You can use a-z, 0-9, _ and -
+Between 3 and 20 characters
+--------------------</value>
+  </data>
+  <data name="WrongLogin" xml:space="preserve">
+    <value>You weren't logged in as Admin</value>
+  </data>
+  <data name="KickTT" xml:space="preserve">
+    <value>Kick %user%</value>
+  </data>
+  <data name="SeeIPTT" xml:space="preserve">
+    <value>See %user%'s IP</value>
+  </data>
+  <data name="SeeVersionTT" xml:space="preserve">
+    <value>See %user%'s version</value>
+  </data>
+  <data name="WriteToTT" xml:space="preserve">
+    <value>Send private message to %user%</value>
+  </data>
+  <data name="LocalStatusChange" xml:space="preserve">
+    <value>You are now {0}</value>
+  </data>
+  <data name="LocalStatusRemoved" xml:space="preserve">
+    <value>You are no longer {0}</value>
+  </data>
+  <data name="StatusRemoved" xml:space="preserve">
+    <value>{0} is no longer {1}</value>
+  </data>
+  <data name="UserKicked" xml:space="preserve">
+    <value>{0} got kicked by Admin {1}</value>
+  </data>
+  <data name="ShowIPs" xml:space="preserve">
+    <value>-----IP's-----</value>
+  </data>
+  <data name="ShowVersions" xml:space="preserve">
+    <value>-----Versions-----</value>
+  </data>
+</root>

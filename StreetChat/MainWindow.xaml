@@ -1,0 +1,46 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:StreetChat"
+        xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero" x:Class="StreetChat.MainWindow"
+        Title="StreetChat" Height="292" Width="500" Background="#FF0A192B" MinWidth="500" MinHeight="330" FontFamily="Arial" Foreground="White" Closing="Window_Closing" GotFocus="Window_GotFocus" LostFocus="Window_LostFocus">
+    <Window.Resources>
+        <local:User x:Key="users" />
+    </Window.Resources>
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="79"/>
+        </Grid.RowDefinitions>
+        <RichTextBox Name="rtxtbxChat" Grid.Row="0" Margin="10,10,141,10" IsReadOnly="True" ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <RichTextBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Name="cntxtCopyAll" Header="CopyAll"/>
+                    <MenuItem Name="cntxtCopyTxt" Header="CopyTxt"/>
+                    <MenuItem Name="cntxtDelAll" Header="DelAll"/>
+                </ContextMenu>
+            </RichTextBox.ContextMenu>
+        </RichTextBox>
+        <ListBox x:Name="lstbxUsers" ItemsSource="{Binding users, Source={StaticResource users}, UpdateSourceTrigger=PropertyChanged}" Grid.Row="0" Width="126" Margin="0,10,11,10" HorizontalAlignment="Right" MouseDoubleClick="lstbxUsers_MouseDoubleClick" MouseRightButtonUp="lstbxUsers_MouseRightButtonUp" ContextMenuOpening="lstbxUsers_ContextMenuOpening">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Label Content="{Binding Username}" />
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            <ListBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Name="cntxtSeeIP" Header="SeeIP" Click="cntxtSeeIP_Click"/>
+                    <MenuItem Name="cntxtSeeVersion" Header="SeeVersion" Click="cntxtSeeVersion_Click"/>
+                    <MenuItem Name="cntxtWriteTo" Header="WriteTo" Click="cntxtWriteTo_Click"/>
+                    <MenuItem Name="cntxtKick" Header="Kick" Click="cntxtKick_Click"/>
+                </ContextMenu>
+            </ListBox.ContextMenu>
+        </ListBox>
+        <TextBox Name="txtbxMsg" Grid.Row="1" Margin="10,1,75,58" Height="21"/>
+        <Button x:Name="btnSendMsg" IsDefault="True" Grid.Row="1" Content="Send" Width="60" Margin="0,1,10,58" HorizontalAlignment="Right" Click="btnSendMsg_Click"/>
+        <CheckBox Name="chkbxNotify" Content="chkbxNotify" Grid.Row="1" Margin="10,27,141,31" Height="21" IsChecked="True" Padding="4,0,0,0"/>
+        <Label x:Name="lblBottomText" Padding="0" Grid.Row="1" Content="lblBottomText" Margin="10,53,141,10"/>
+        <ComboBox Grid.Row="1" x:Name="cmbbxLanguage" Margin="0,27,11,31" HorizontalAlignment="Right" Width="125" Height="21"/>
+    </Grid>
+</Window>

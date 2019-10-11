@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdminAlreadyExist" xml:space="preserve">
+    <value>Der er allerede en Admin</value>
+  </data>
+  <data name="AloneAdminRequest" xml:space="preserve">
+    <value>Der skal være andre i chatten for at du kan blive Admin</value>
+  </data>
+  <data name="AlreadyAdmin" xml:space="preserve">
+    <value>Du er allerede Admin</value>
+  </data>
+  <data name="BottomText" xml:space="preserve">
+    <value>Made by Stiig "Neophear" Gade - Version {0}</value>
+  </data>
+  <data name="CopyAll" xml:space="preserve">
+    <value>Kopier alt</value>
+  </data>
+  <data name="CopyText" xml:space="preserve">
+    <value>Kopier tekst</value>
+  </data>
+  <data name="DelAll" xml:space="preserve">
+    <value>Slet alt</value>
+  </data>
+  <data name="EmptyMessage" xml:space="preserve">
+    <value>Du skal skrive en besked</value>
+  </data>
+  <data name="FollowingIsAdmin" xml:space="preserve">
+    <value>-----Admins-----</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>-----Hjælp-----
+Op/ned for at se tidligere sendte beskeder
+CTRL+R for at besvare en privat besked
+Du kan højreklikke/dobbeltklikke på brugere
+Du kan højreklikke i chatten
+/admins - Viser alle Admins
+/afk - Skift status til AFK
+/info - Lidt info om chatten
+/ip - Send din egen IP ud i chatten
+/ips - Se alle brugeres IP
+/versions - Se hvilken version alle bruger
+/login password - Log ind som Admin
+/request - Anmod om Admin hvis ikke der allerede er en
+/status - Sæt/skift status
+/username brugernavn - Skift dit brugernavn
+/w brugernavn - Skriv privat til brugernavn
+/kick Brugernavn - Kick Brugernavn
+---------------</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>-----Info-----
+Denne chat blev lavet i Afghanistan på ISAF hold 11 af Stiig Andreas Gade og er sidenhen blevet modificeret
+Denne chat er lavet til LAN
+Kom gerne med idéer/bugs til stiiggade@gmail.com.
+--------------</value>
+  </data>
+  <data name="IsNowAdmin" xml:space="preserve">
+    <value>{0} er nu Admin</value>
+  </data>
+  <data name="Kick" xml:space="preserve">
+    <value>Kick</value>
+  </data>
+  <data name="LocalUsernameChange" xml:space="preserve">
+    <value>Du hedder nu {0}</value>
+  </data>
+  <data name="LoggedOff" xml:space="preserve">
+    <value>{0} loggede af</value>
+  </data>
+  <data name="LoggedOn" xml:space="preserve">
+    <value>{0} loggede på</value>
+  </data>
+  <data name="Love" xml:space="preserve">
+    <value>Jeg elsker dig Henriette Strand &lt;3</value>
+  </data>
+  <data name="MissingUsername" xml:space="preserve">
+    <value>Du skal skrive et brugernavn</value>
+  </data>
+  <data name="NewVersion" xml:space="preserve">
+    <value>---Ny version---
+Din version er {0}
+{1} har version {2}
+----------------</value>
+  </data>
+  <data name="NoAdmin" xml:space="preserve">
+    <value>Der er ingen Admin</value>
+  </data>
+  <data name="NotifyNewMessage" xml:space="preserve">
+    <value>Lyd/statustekst ved ny besked</value>
+  </data>
+  <data name="NotPossible" xml:space="preserve">
+    <value>Du kan ikke gøre dette</value>
+  </data>
+  <data name="StatusChange" xml:space="preserve">
+    <value>{0} er nu {1}</value>
+  </data>
+  <data name="UsernameChange" xml:space="preserve">
+    <value>{0} hedder nu {1}</value>
+  </data>
+  <data name="PortInUse" xml:space="preserve">
+    <value>Port {0} er allerede i brug. Muligvis fordi du allerede har en chat kørende. Luk den og prøv igen.</value>
+  </data>
+  <data name="PrivateToLocalError" xml:space="preserve">
+    <value>Du kan ikke skrive privat til dig selv</value>
+  </data>
+  <data name="SeeIP" xml:space="preserve">
+    <value>Se IP</value>
+  </data>
+  <data name="SeeVersion" xml:space="preserve">
+    <value>Se version</value>
+  </data>
+  <data name="ShowIP" xml:space="preserve">
+    <value>{0}'s IP er {1}</value>
+  </data>
+  <data name="ShowVersion" xml:space="preserve">
+    <value>{0}'s version er {1}</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>StreetChat</value>
+  </data>
+  <data name="TitleNewMessage" xml:space="preserve">
+    <value>StreetChat - Ny besked</value>
+  </data>
+  <data name="UsernameExist1" xml:space="preserve">
+    <value>Dit navn er allerede {0}</value>
+  </data>
+  <data name="UsernameExist2" xml:space="preserve">
+    <value>Der findes allerede en bruger ved navn {0}</value>
+  </data>
+  <data name="UserNotOnline" xml:space="preserve">
+    <value>Bruger {0} er ikke online</value>
+  </data>
+  <data name="WelcomeString" xml:space="preserve">
+    <value>-----Velkommen-----
+Skriv /help eller tryk F1 for at få hjælp til kommandoer
+Enjoy :)
+-------------------</value>
+  </data>
+  <data name="WriteTo" xml:space="preserve">
+    <value>Skriv privat</value>
+  </data>
+  <data name="WrongCommand" xml:space="preserve">
+    <value>Kommanden eksisterer ikke. Prøv /help eller F1 for hjælp</value>
+  </data>
+  <data name="WrongStatusFormat" xml:space="preserve">
+    <value>En status må maks være på 5 tegn</value>
+  </data>
+  <data name="WrongUsernameFormat" xml:space="preserve">
+    <value>---Forkert format---
+Du må bruge a-z, 0-9, _ og -
+Mellem 3 og 20 tegn
+--------------------</value>
+  </data>
+  <data name="WrongLogin" xml:space="preserve">
+    <value>Du blev ikke logget ind som Admin</value>
+  </data>
+  <data name="KickTT" xml:space="preserve">
+    <value>Kick %user%</value>
+  </data>
+  <data name="SeeIPTT" xml:space="preserve">
+    <value>Se %user%'s IP</value>
+  </data>
+  <data name="SeeVersionTT" xml:space="preserve">
+    <value>Se %user%'s version</value>
+  </data>
+  <data name="WriteToTT" xml:space="preserve">
+    <value>Skriv privat til %user%</value>
+  </data>
+  <data name="LocalUser" xml:space="preserve">
+    <value>Du</value>
+  </data>
+  <data name="LocalStatusChange" xml:space="preserve">
+    <value>Du er nu {0}</value>
+  </data>
+  <data name="LocalStatusRemoved" xml:space="preserve">
+    <value>Du er ikke længere {0}</value>
+  </data>
+  <data name="StatusRemoved" xml:space="preserve">
+    <value>{0} er ikke længere {1}</value>
+  </data>
+  <data name="UserKicked" xml:space="preserve">
+    <value>{0} blev kicket af Admin {1}</value>
+  </data>
+  <data name="ShowIPs" xml:space="preserve">
+    <value>-----IP'er-----</value>
+  </data>
+  <data name="ShowVersions" xml:space="preserve">
+    <value>-----Versioner-----</value>
+  </data>
+</root>
